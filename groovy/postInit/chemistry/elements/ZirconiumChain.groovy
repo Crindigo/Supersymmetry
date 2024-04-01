@@ -1,5 +1,5 @@
 import globals.Globals
-import static globals.CarbonGlobals.*
+import globals.CarbonGlobals
 
 MIXER = recipemap('mixer')
 FF = recipemap('froth_flotation')

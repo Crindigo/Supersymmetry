@@ -1,3 +1,5 @@
+package postInit.chemistry
+
 import globals.Globals
 import globals.SinteringGlobals
 

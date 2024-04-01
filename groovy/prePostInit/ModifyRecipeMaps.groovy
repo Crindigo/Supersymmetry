@@ -21,6 +21,11 @@ removeAllRecipes(GTFORecipeMaps.GREENHOUSE_RECIPES);
 removeAllRecipes(RecipeMaps.VACUUM_RECIPES);
 removeAllRecipes(RecipeMaps.ELECTROLYZER_RECIPES);
 
+
+RecipeMaps.BLAST_RECIPES.setMaxFluidInputs(2);
+SuSyRecipeMaps.RAILROAD_ENGINEERING_STATION_RECIPES.setMaxFluidInputs(3);
+SuSyRecipeMaps.RAILROAD_ENGINEERING_STATION_RECIPES.setMaxInputs(12);
+
 //Add mixer recipes to blender
 
 RecipeMaps.MIXER_RECIPES.onRecipeBuild(recipeBuilder -> {

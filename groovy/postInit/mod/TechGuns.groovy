@@ -694,7 +694,7 @@ Globals.solders.each { key, val ->
 			.inputs([
 					item('techguns:itemshared', 39) * 8,
 					item('techguns:itemshared', 36),
-					item('minecraft:flint_and_steel'),
+					item('minecraft:flint_and_steel') * 4,
 					metaitem('ringSteel') * 4,
 					metaitem('cover.screen'),
 					ore('circuitHv') * 4,

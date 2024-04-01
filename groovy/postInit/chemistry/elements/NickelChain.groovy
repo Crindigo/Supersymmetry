@@ -1,5 +1,5 @@
 import globals.Globals
-import static globals.CarbonGlobals.*
+import globals.CarbonGlobals
 
 PRIMITIVEBLASTFURNACE = recipemap('primitive_blast_furnace')
 EBF = recipemap('electric_blast_furnace')

@@ -4,6 +4,7 @@ MIXER = recipemap('mixer')
 SIFTER = recipemap('sifter')
 ROASTER = recipemap('roaster')
 
+
 MIXER.recipeBuilder()
         .fluidInputs(fluid('water') * 100)
         .inputs(ore('dustTinyAsh'))

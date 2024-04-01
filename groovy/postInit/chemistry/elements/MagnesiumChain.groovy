@@ -1,5 +1,5 @@
 import globals.Globals
-import static globals.CarbonGlobals.*
+import globals.CarbonGlobals
 
 ROASTER = recipemap('roaster')
 EBF = recipemap('electric_blast_furnace')

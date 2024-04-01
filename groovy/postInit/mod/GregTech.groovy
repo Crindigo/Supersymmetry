@@ -1,5 +1,5 @@
 import globals.Globals
-import globals.GroovyUtils.*
+import globals.GroovyUtils
 
 import gregtech.api.recipes.recipeproperties.RecipeProperty;
 import gregtech.api.recipes.RecipeBuilder;
@@ -531,7 +531,7 @@ mods.gregtech.assembler.recipeBuilder()
 mods.gregtech.assembler.recipeBuilder()
         .inputs(ore('plateSteel') * 4)
         .inputs(ore('foilAluminium') * 8)
-        .inputs(ore('foilPolypropylene') * 8)
+        .inputs(ore('foilPolypropylene') * 16)
         .outputs(metaitem('hepa_filter'))
         .duration(80)
         .EUt(120)

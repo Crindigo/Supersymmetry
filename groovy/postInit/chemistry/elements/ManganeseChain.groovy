@@ -6,7 +6,7 @@ import gregtech.api.unification.ore.OrePrefix;
 
 import static gregtech.api.unification.material.Materials.*;
 import globals.Globals
-import static globals.CarbonGlobals.*
+import globals.CarbonGlobals
 
 EBF = recipemap('electric_blast_furnace')
 ROASTER = recipemap('roaster')
@@ -50,13 +50,13 @@ for (highPurityCombustible in CarbonGlobals.highPurityCombustibles()) {
 }
 
 //PARTIAL REDUCTION OF PYROLUSITE FOR SULFURIC ACID LEACH
-class Reductant {
+class ManganeseReductant {
     String name
     String byproduct
     int amount_required
     int byproduct_amount
 
-    Reductant(name, byproduct, amount_required, byproduct_amount) {
+    ManganeseReductant(name, byproduct, amount_required, byproduct_amount) {
         this.name = name
         this.byproduct = byproduct
         this.amount_required = amount_required
@@ -65,13 +65,13 @@ class Reductant {
 }
 
 def hydrocarbonReductants = [
-    new Reductant('fuel_oil', 'carbon_dioxide', 67, 288),
-    new Reductant('natural_gas', 'carbon_dioxide', 167, 234)
+    new ManganeseReductant('fuel_oil', 'carbon_dioxide', 67, 288),
+    new ManganeseReductant('natural_gas', 'carbon_dioxide', 167, 234)
 ]
 
 def reductants = [
-    new Reductant('carbon_monoxide', 'carbon_dioxide', 1000, 1000),
-    new Reductant('hydrogen', 'steam', 2000, 1000)
+    new ManganeseReductant('carbon_monoxide', 'carbon_dioxide', 1000, 1000),
+    new ManganeseReductant('hydrogen', 'steam', 2000, 1000)
 ]
 
 /*
