@@ -1,5 +1,5 @@
 import globals.Globals
-import globals.CarbonGlobals
+import static globals.CarbonGlobals.*
 
 //RECIPE REMOVALS
 mods.gregtech.primitive_blast_furnace.removeByInput(1, [metaitem('ingotWroughtIron'), metaitem('dustCoke')], null)
@@ -39,12 +39,12 @@ class Blastable {
     }
 }
 
-class IronReductant {
+class Reductant {
     String name
     String byproduct
     int amount_required
     int byproduct_amount
-    IronReductant(name, byproduct, amount_required, byproduct_amount) {
+    Reductant(name, byproduct, amount_required, byproduct_amount) {
         this.name = name
         this.byproduct = byproduct
         this.amount_required = 1000 * amount_required
@@ -72,8 +72,8 @@ def blastables = [
 ]
 
 def reductants = [
-    new IronReductant('carbon_monoxide', 'carbon_dioxide', 1, 1),
-    new IronReductant('hydrogen', 'steam', 2, 1)
+    new Reductant('carbon_monoxide', 'carbon_dioxide', 1, 1),
+    new Reductant('hydrogen', 'steam', 2, 1)
 ]
 
 def combustibles = CarbonGlobals.combustibles()

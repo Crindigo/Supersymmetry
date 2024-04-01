@@ -1,5 +1,3 @@
-package globals
-
 import net.minecraftforge.fluids.FluidStack;
 
 import gregtech.integration.groovy.VirtualizedRecipeMap;

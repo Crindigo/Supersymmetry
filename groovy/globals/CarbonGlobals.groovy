@@ -1,5 +1,3 @@
-package globals
-
 import groovy.transform.TupleConstructor
 
 class CarbonGlobals {

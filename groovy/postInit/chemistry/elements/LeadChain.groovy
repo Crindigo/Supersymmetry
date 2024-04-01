@@ -1,5 +1,5 @@
 import globals.Globals
-import globals.CarbonGlobals
+import static globals.CarbonGlobals.*
 import static globals.SinteringGlobals.*
 
 FLUID_SOLIDIFIER = recipemap('fluid_solidifier')

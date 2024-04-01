@@ -1,5 +1,5 @@
 import globals.Globals
-import globals.CarbonGlobals
+import static globals.CarbonGlobals.*
 
 FLOTATION = recipemap('froth_flotation')
 CLARIFIER = recipemap('clarifier')

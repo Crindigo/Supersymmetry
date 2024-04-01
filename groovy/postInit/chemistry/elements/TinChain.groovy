@@ -1,5 +1,5 @@
 import globals.Globals
-import globals.CarbonGlobals
+import static globals.CarbonGlobals.*
 
 AUTOCLAVE = recipemap('autoclave')
 ROASTER = recipemap('roaster')

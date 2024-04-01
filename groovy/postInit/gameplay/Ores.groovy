@@ -74,6 +74,6 @@ def RedundantOreRemovals = [
 
 for (entry in RedundantOreRemovals) {
     for (item in entry.getMatchingStacks()) {
-        mods.jei.ingredient.removeAndHide(item)
+        mods.jei.removeAndHide(item)
     }
 }
